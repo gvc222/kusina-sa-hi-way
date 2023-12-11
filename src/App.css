@@ -183,3 +183,32 @@ footer p, footer a {
   
 }
 
+@media only screen and (max-width: 850px) {
+  .app {
+    overflow-x: hidden;
+  }
+  
+  .navigation__bar {
+    visibility: hidden;
+  }
+
+  nav .logo {
+    visibility: hidden !important;
+  }
+
+  .hero__title {
+    font-size: 4rem !important;
+    margin-bottom: 15px !important;
+    margin-top: 100px !important;
+  }
+
+  .fb__posts {
+    display: flex;
+    flex-direction: column;
+  }
+
+  iframe {
+    width: 90vw;
+  }
+
+}

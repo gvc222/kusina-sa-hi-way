@@ -16,7 +16,7 @@ const App = () => {
         <div className="nav__contact"><a href="#contact">Contact Us</a></div>
         <div className="nav__directions"><a target="_blank" rel="noreferrer" href={addressURL}>Get Directions</a></div>
       </nav>
-      
+
       <div className="container">
         
         <div className="header">
