@@ -1,6 +1,5 @@
 import './App.css';
 import logo from "./assets/gallery/logo.png";
-import HorizontalRuleIcon from '@mui/icons-material/HorizontalRule';
 
 const App = () => {
   const call = () => {
