@@ -1,0 +1,185 @@
+:root {
+  --main-yellow: #FFE382;
+  --orange: #FFC47E;
+  --light-yellow: #FFF78A;
+  --brown: #c48c24;
+}
+
+.app {
+  font-family:'Montserrat', sans-serif;
+  background: var(--light-yellow);
+}
+
+.logo__image {
+  width: 100px;
+}
+.paragraph {
+  width: 50vw;
+}
+hr {
+  background-color: orange;
+  height: 2px;
+  border-width: 0;
+  color: orange;
+  width: 40vw;
+  margin-top: 20px;
+}
+nav {
+  position: fixed;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(196, 140, 36);
+  box-shadow: 0 2px 1px var(--brown);
+  color: var(--light-yellow);
+  justify-content: space-around;
+}
+
+nav .nav__logo {
+  width: 40%;
+  position: relative;
+  left: -250px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+nav a {
+  color: var(--main-yellow);
+  text-decoration: none;
+  text-shadow:0 2px 5px var(--brown);
+  font-size: 1.5rem;
+  font-family:'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+
+.container > .header > .hero__title {
+  margin-top: 120px;
+  font-size: 7rem;
+  font-weight: 600;
+  margin-bottom: 0;
+  text-shadow: 0 1px 2px var(--light-yellow);
+}
+
+
+iframe {
+  border: 1px solid var(--brown);
+  overflow: hidden;
+  margin: 10px 10px 10px 10px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.container > .header > p {
+  color: orange;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 2px;
+}
+
+.header {
+  background-image: url(./assets/gallery/kusina-dark.jpg);
+  width: 100vw;
+  height: 100%;
+  margin-top:0;
+}
+.menu p {
+  width: 70vw;
+}
+
+p {
+  color: var(--brown);
+  font-size: 15px;
+  font-weight: bold;
+}
+.subheader {
+  margin-bottom: 5px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-top: 0;
+}
+
+h1, h2, h3 {
+  color: orange;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.fb__posts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.contact__info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+button {
+  background-color: orange;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 40px;
+  width: 120px;
+  height: 50px;
+}
+
+button:hover {
+  background-color: rgba(255, 166, 0, 0.531);
+  cursor: pointer;
+}
+
+button:active {
+  background-color: var(--brown);
+}
+
+iframe:hover {
+  cursor: pointer;
+}
+
+footer {
+  width: 100vw;
+  background-color: var(--brown);
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+footer p, footer a {
+  color: white;
+}
+
+.footer__nav {
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: center;
+  padding-top: 5px;
+}
+
+.footer > .footer__nav > a {
+  color: white;
+  text-decoration: none
+}
+
+.footer a {
+  text-decoration: none;
+  padding: 10px;
+  
+}
+
