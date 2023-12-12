@@ -90,10 +90,10 @@ const App = () => {
         <footer className="footer">
           <div className="footer__text">
             <div className="footer__nav">
-              <div className="nav__menu"><a href="/menu">Menu</a></div>
-              <div className="nav__reviews"><a href="/reviews">Reviews</a></div>
-              <div className="nav__gallery"><a href="/gallery">Gallery</a></div>
-              <div className="nav__contact"><a href="/contact">Contact Us</a></div>
+              <div className="nav__menu"><a href="#menu">Menu</a></div>
+              <div className="nav__reviews"><a href="#reviews">Reviews</a></div>
+              <div className="nav__gallery"><a href="#gallery">Gallery</a></div>
+              <div className="nav__contact"><a href="#contact">Contact Us</a></div>
               <div className="nav__directions"><a target="_blank" rel="noreferrer" href={addressURL}>Get Directions</a></div>
             </div>
             <p className="footer__p">Powered by Kusina sa Hi-Way © 2023</p>
